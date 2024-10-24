@@ -1,0 +1,39 @@
+[
+  {
+    "name": "address_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the address"
+  },
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Identifier linking the address to a customer"
+  },
+  {
+    "name": "street",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Street name and number"
+  },
+  {
+    "name": "city",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "City of the address"
+  },
+  {
+    "name": "state",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "State of the address"
+  },
+  {
+    "name": "zip_code",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Postal code of the address"
+  }
+]
+

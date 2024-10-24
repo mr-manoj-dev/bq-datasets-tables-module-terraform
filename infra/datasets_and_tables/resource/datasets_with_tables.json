@@ -1,0 +1,60 @@
+[
+  {
+    "datasetId": "manoj_tf_demo",
+    "datasetRegion": "us-central1",
+    "datasetFriendlyName": "Demo Dataset containing tables and views",
+    "datasetDescription": "Demo Dataset containing tables and views",
+    "tables": [
+      {
+        "tableId": "account",
+        "tableSchemaPath": "resource/schema/account/account.json",
+        "partitionType": "DAY",
+        "partitionField": "created_date",
+        "clustering": [
+          "account_type"
+        ]
+      },
+      {
+        "tableId": "address",
+        "tableSchemaPath": "resource/schema/address/address.json",
+        "clustering": [
+          "city",
+          "state"
+        ]
+      },
+      {
+        "tableId": "contact",
+        "tableSchemaPath": "resource/schema/contact/contact.json",
+        "clustering": [
+          "city",
+          "state"
+        ]
+      },
+      {
+        "tableId": "customer",
+        "tableSchemaPath": "resource/schema/customer/customer.json",
+        "partitionType": "DAY",
+        "partitionField": "date_of_birth",
+        "clustering": [
+          "first_name",
+          "last_name"
+        ]
+      },
+      {
+        "tableId": "payment",
+        "tableSchemaPath": "resource/schema/payment/payment.json",
+        "partitionType": "DAY",
+        "partitionField": "payment_date"
+      },
+      {
+        "tableId": "transaction",
+        "tableSchemaPath": "resource/schema/transaction/transaction.json",
+        "partitionType": "DAY",
+        "partitionField": "transaction_date",
+        "clustering": [
+          "transaction_type"
+        ]
+      }
+    ]
+  }
+]
