@@ -53,8 +53,6 @@ gcloud builds submit \
 ```
 
 
-test
-
 
 ### Apply without workspace
 
