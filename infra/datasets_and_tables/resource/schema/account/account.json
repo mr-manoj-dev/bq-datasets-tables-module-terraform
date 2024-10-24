@@ -1,0 +1,33 @@
+[
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the account"
+  },
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Identifier linking the account to a customer"
+  },
+  {
+    "name": "account_type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Type of account (e.g., savings, checking)"
+  },
+  {
+    "name": "balance",
+    "type": "FLOAT",
+    "mode": "NULLABLE",
+    "description": "Current balance of the account"
+  },
+  {
+    "name": "created_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Date when the account was created"
+  }
+]
+

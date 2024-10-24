@@ -1,0 +1,39 @@
+[
+  {
+    "name": "contact_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the contact"
+  },
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Identifier linking the contact to a customer"
+  },
+  {
+    "name": "phone_number",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Contact phone number"
+  },
+  {
+    "name": "city",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "City name"
+  },
+  {
+    "name": "state",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "State name"
+  },
+  {
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Contact email address"
+  }
+]
+

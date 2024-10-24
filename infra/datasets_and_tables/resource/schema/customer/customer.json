@@ -1,0 +1,33 @@
+[
+  {
+    "name": "customer_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the customer"
+  },
+  {
+    "name": "first_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Customer's first name"
+  },
+  {
+    "name": "last_name",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Customer's last name"
+  },
+  {
+    "name": "date_of_birth",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Customer's date of birth"
+  },
+  {
+    "name": "email",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Customer's email address"
+  }
+]
+

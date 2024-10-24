@@ -1,0 +1,39 @@
+[
+  {
+    "name": "transaction_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the transaction"
+  },
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Identifier linking the transaction to an account"
+  },
+  {
+    "name": "transaction_type",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Type of transaction (e.g., debit, credit)"
+  },
+  {
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED",
+    "description": "Monetary value of the transaction"
+  },
+  {
+    "name": "transaction_date",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": "Date and time when the transaction occurred"
+  },
+  {
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Additional details about the transaction"
+  }
+]
+

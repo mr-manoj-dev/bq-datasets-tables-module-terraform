@@ -1,0 +1,33 @@
+[
+  {
+    "name": "payment_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Unique identifier for the payment"
+  },
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Identifier linking the payment to an account"
+  },
+  {
+    "name": "amount",
+    "type": "FLOAT",
+    "mode": "REQUIRED",
+    "description": "Amount of the payment"
+  },
+  {
+    "name": "payment_date",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED",
+    "description": "Date and time when the payment was made"
+  },
+  {
+    "name": "payee",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Recipient of the payment"
+  }
+]
+
